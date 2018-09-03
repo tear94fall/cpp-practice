@@ -1,9 +1,17 @@
 #include <sys/poll.h>
 #include <stdio.h>
 #include <iostream>
+#include <string>
 
-int main(int argc, char* argv[]){
-    std::cout<<"hello world"<<"\n";
+template<typename T1, typename T2>
+struct test_struct{
+    T1 num;
+    T2 name;
+};
 
-    return 0;
+int main(void){
+    test_struct<int, std::string> info;
+
+
+
 }
