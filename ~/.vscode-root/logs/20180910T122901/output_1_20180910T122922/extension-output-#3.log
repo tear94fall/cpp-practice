@@ -1,0 +1,1 @@
+[Running] cd "/home/ubuntu/다운로드/cppLinuxSocket/" && g++ epoll_long_example.cpp -o epoll_long_example && "/home/ubuntu/다운로드/cppLinuxSocket/"epoll_long_example
